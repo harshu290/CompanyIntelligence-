@@ -15,7 +15,7 @@ from langchain.docstore.document import Document
 from langchain.prompts import PromptTemplate
 
 load_dotenv()
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "") or st.secrets.get("GROQ_API_KEY", "")
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
