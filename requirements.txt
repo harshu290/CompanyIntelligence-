@@ -7,4 +7,7 @@ langchain==0.3.25
 langchain-groq==0.3.2
 langchain-community==0.3.24
 langchain-text-splitters==0.3.8
+langsmith==0.3.42
 groq==0.28.0
+lxml>=5.3.0
+zstandard==0.22.0
