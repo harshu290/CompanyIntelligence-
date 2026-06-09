@@ -1,8 +1,13 @@
 streamlit
-requests
-trafilatura
-python-dotenv
 langchain
-langchain-community
 langchain-groq
+langchain-community
+chromadb
+pypdf
+trafilatura
 beautifulsoup4
+requests
+pandas
+plotly
+sentence-transformers
+faiss-cpu
